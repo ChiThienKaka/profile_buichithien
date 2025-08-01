@@ -9,11 +9,11 @@ export default function MobileHeader(){
             {/* Nút trigger mở menu - hiện ở mobile */}
             <SheetTrigger className="block md:hidden p-2">
                 <div className="flex items-center space-x-2">
-                    <Avatar className="w-5 h-5">
+                    <Avatar className="w-8 h-8">
                         <AvatarImage src="https://github.com/shadcn.png" />
                         <AvatarFallback>BC</AvatarFallback>
                     </Avatar>
-                    <div style={{backgroundColor:COLORS.bgColor}} className="rounded-full p-1"><Menu className="w-3 h-3 text-white" /></div>
+                    <div style={{backgroundColor:COLORS.bgColor}} className="rounded-full p-1"><Menu className="w-4 h-4 text-white" /></div>
                 </div>
             </SheetTrigger>
 
@@ -31,11 +31,12 @@ export default function MobileHeader(){
                                 <div className="font-light">thien190602@gmail.com</div>
                             </div>
                         </div>
+                        <hr className=" mt-2 border-t border-gray-300 opacity-50" />
                     </SheetTitle>
                     <SheetDescription>
                     </SheetDescription>
                     <div className="flex flex-col gap-1 mt-4 text-sm">
-                        <button className=" flex items-center p-2 "><FolderCode className="w-4 h-4 mr-2" />Nhà phát triển</button>
+                        <button className="flex items-center p-2"><FolderCode className="w-4 h-4 mr-2" />Nhà phát triển</button>
                         <button className="flex items-center p-2"><Folder className="w-4 h-4 mr-2" />Dự án</button>
                     </div>
                 </SheetHeader>
