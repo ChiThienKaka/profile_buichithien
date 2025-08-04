@@ -46,7 +46,7 @@ export default function Overview(){
                         <span>Tất cả ({dataTech.length??0})</span>
                         <span className="text-[#2fb3b6] hover:underline cursor-pointer">Xem thêm</span>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-2">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4 mt-2">
                         {dataTech && dataTech.map((tech, index) => (
                             <div key={index} className="text-center flex flex-col items-center p-4 bg-white shadow-lg rounded-lg
                             transition-transform duration-300 ease-in-out

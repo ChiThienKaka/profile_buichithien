@@ -25,7 +25,9 @@ export default function TabContent() {
             </TabsList>
             <hr className="w-full border-t border-gray-200" />
             <TabsContent value="overview"><Overview /></TabsContent>
-            <TabsContent value="education">Change your password here.</TabsContent>
+            <TabsContent value="education"><Overview /></TabsContent>
+            <TabsContent value="experiences"><Overview /></TabsContent>
+            <TabsContent value="reviews"><Overview /></TabsContent>
         </Tabs>
     )
 }

@@ -4,6 +4,7 @@ import { Share } from "lucide-react"
 import MobileContent from "@/components/layout/content/MobileContent"
 import TabletContent from "@/components/layout/content/TabletContent"
 import { IMAGE_CONSTANTS } from "@/constants"
+import MobileFooter from "@/components/layout/footer/MobileFooter"
 // import { CardProfile } from "@/components/components-ui"
 export default function MainLayout() {
     return <>
@@ -11,7 +12,7 @@ export default function MainLayout() {
                 {/* Header  */}
                 <Header />
                 {/* Image Background  */}
-                <div className="relative w-full h-64 bg-cover bg-center hidden sm:block"
+                <div className="relative  w-full h-64 bg-cover bg-center hidden sm:block"
                     style={{ backgroundImage: `url(${IMAGE_CONSTANTS.banner})` }}>
                 
                     <Button className="absolute cursor-pointer hover:bg-black/80 bottom-4 right-4 bg-black/60 text-white rounded-full"
@@ -28,6 +29,7 @@ export default function MainLayout() {
                 <TabletContent />
                 {/* Footer  */}
                 <Footer />
+                <MobileFooter />
             </div>
         </>
 }
