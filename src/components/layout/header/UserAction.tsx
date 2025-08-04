@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ChevronDown } from "lucide-react";
-
+import { IMAGE_CONSTANTS } from "@/constants/image";
 export default function UserAction(){
     return <>
         <div
@@ -10,7 +10,7 @@ export default function UserAction(){
                        cursor-pointer"
         >
             <Avatar className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7">
-                <AvatarImage src="./user_admin.jpg" />
+                <AvatarImage src={IMAGE_CONSTANTS.img_admin} />
                 <AvatarFallback>BC</AvatarFallback>
             </Avatar>
 

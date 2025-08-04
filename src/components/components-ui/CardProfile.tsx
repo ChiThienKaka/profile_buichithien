@@ -1,6 +1,7 @@
 import { MessageCircle, UserRoundPlus } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
+import { IMAGE_CONSTANTS } from "@/constants/image";
 export default function CardProfile() {
     return (
         <div className="flex flex-col w-full h-full gap-y-5 p-4 shadow-lg
@@ -10,7 +11,7 @@ export default function CardProfile() {
             text-xs sm:text-sm md:text-base">
             <div className="flex flex-1 justify-center items-center">
                 <Avatar className="w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-28 lg:h-28">
-                    <AvatarImage src="./user_admin.jpg" />
+                    <AvatarImage src={IMAGE_CONSTANTS.img_admin} />
                     <AvatarFallback>BC</AvatarFallback>
                 </Avatar>
             </div>

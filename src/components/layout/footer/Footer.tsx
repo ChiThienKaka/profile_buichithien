@@ -1,3 +1,5 @@
+import { IMAGE_CONSTANTS } from "@/constants";
+
 export default function Footer(){
     return(
         <footer className="bg-[#f6f6f6] shadow-inner py-10 px-6 hidden sm:block md:px-16">
@@ -15,16 +17,16 @@ export default function Footer(){
                 </p>
                 <div className="flex space-x-3">
                   <a href="https://www.facebook.com/chithien.bui.10690/" className="hover:opacity-70 transition">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook" className="w-6 h-6" />
+                    <img src={IMAGE_CONSTANTS.fabook} alt="Facebook" className="w-6 h-6" />
                   </a>
                   <a href="#" className="hover:opacity-70 transition">
-                    <img src="https://inhoangha.com/uploads/tai-zalo-logo-vector.jpg" alt="Zalo" className="w-6 h-6" />
+                    <img src={IMAGE_CONSTANTS.zalo} alt="Zalo" className="w-6 h-6" />
                   </a>
                   <a href="#" className="hover:opacity-70 transition">
-                    <img src="https://store-images.s-microsoft.com/image/apps.4784.13634052595610511.c45457c9-b4af-46b0-8e61-8d7c0aec3f56.3d483847-81a6-4078-8f83-a35c5c38ee92" alt="Tiktok" className="w-6 h-6" />
+                    <img src={IMAGE_CONSTANTS.tiktok} alt="Tiktok" className="w-6 h-6" />
                   </a>
                   <a href="#" className="hover:opacity-70 transition">
-                    <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" className="w-6 h-6" />
+                    <img src={IMAGE_CONSTANTS.linkedin} alt="LinkedIn" className="w-6 h-6" />
                   </a>
                 </div>
               </div>
