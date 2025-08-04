@@ -10,7 +10,7 @@ export default function MobileHeader(){
             <SheetTrigger className="block md:hidden p-2">
                 <div className="flex items-center space-x-2">
                     <Avatar className="w-8 h-8">
-                        <AvatarImage src="https://github.com/shadcn.png" />
+                        <AvatarImage src="./user_admin.jpg" />
                         <AvatarFallback>BC</AvatarFallback>
                     </Avatar>
                     <div style={{backgroundColor:COLORS.bgColor}} className="rounded-full p-1"><Menu className="w-4 h-4 text-white" /></div>
@@ -23,7 +23,7 @@ export default function MobileHeader(){
                     <SheetTitle>
                         <div className="flex items-center space-x-2 text-sm">
                             <Avatar className="w-8 h-8">
-                                <AvatarImage src="https://github.com/shadcn.png" />
+                                <AvatarImage src="./user_admin.jpg" />
                                 <AvatarFallback>BC</AvatarFallback>
                             </Avatar>
                             <div>

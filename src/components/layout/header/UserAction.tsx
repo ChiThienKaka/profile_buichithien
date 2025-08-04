@@ -10,11 +10,11 @@ export default function UserAction(){
                        cursor-pointer"
         >
             <Avatar className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="./user_admin.jpg" />
                 <AvatarFallback>BC</AvatarFallback>
             </Avatar>
 
-            <span className="hidden sm:inline">Roger</span>
+            <span className="hidden sm:inline">Thien</span>
 
             <ChevronDown className="w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4 text-gray-500" />
         </div>

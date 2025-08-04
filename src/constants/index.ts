@@ -1,3 +1,4 @@
 import {COLORS} from "./colors"
+import { IMAGE_CONSTANTS } from "./image"
 
-export {COLORS}
+export {COLORS, IMAGE_CONSTANTS} 
