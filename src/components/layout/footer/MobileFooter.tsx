@@ -2,7 +2,7 @@ import { IMAGE_CONSTANTS } from "@/constants/image";
 
 export default function MobileFooter() {
     return (
-        <footer className="bg-[#f6f6f6] shadow-inner py-10 px-6 sm:hidden md:px-16">
+        <footer className="bg-[#f6f6f6] dark:bg-black shadow-inner py-10 px-6 sm:hidden md:px-16">
             <div className="w-full">
                     {/* Logo + Mô tả + Social */}
                 <div className="flex flex-col items-center">

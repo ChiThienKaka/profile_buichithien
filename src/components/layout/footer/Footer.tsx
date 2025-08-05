@@ -2,7 +2,7 @@ import { IMAGE_CONSTANTS } from "@/constants";
 
 export default function Footer(){
     return(
-        <footer className="bg-[#f6f6f6] shadow-inner py-10 px-6 hidden sm:block md:px-16">
+        <footer className="bg-[#f6f6f6] dark:bg-black shadow-inner py-10 px-6 hidden sm:block md:px-16">
       <div className="w-full mx-auto grid grid-cols-3 gap-8">
         <div className="col-span-1">
               {/* Logo + Mô tả + Social */}

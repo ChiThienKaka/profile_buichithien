@@ -39,7 +39,7 @@ export default function Overview(){
             </div>
 
             {/* Cột phải */}
-            <div className="p-4 overflow-auto bg-[#f5f5f5] rounded-lg">
+            <div className="p-4 overflow-auto bg-[#f5f5f5] rounded-lg dark:bg-black">
                 <h1>Công nghệ</h1>
                 <div>
                     <div className="flex justify-between mt-1 text-gray-400">
@@ -56,7 +56,7 @@ export default function Overview(){
                                 alt={tech.name}
                                 className="w-10 h-10 md:object-contain md:h-15 md:w-15 lg:h-20 lg:w-20 object-cover"
                             />
-                            <span className="text-xs md:text-xs lg:text-sm">{tech.name}</span>
+                            <span className="text-xs md:text-xs lg:text-sm dark:text-black">{tech.name}</span>
                         </div>
                         ))}
 

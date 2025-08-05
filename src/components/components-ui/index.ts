@@ -1,2 +1,3 @@
 import CardProfile from "./CardProfile";
-export { CardProfile };
+import { SwitchDarkMode } from "./SwitchDarkMode";
+export { CardProfile, SwitchDarkMode };

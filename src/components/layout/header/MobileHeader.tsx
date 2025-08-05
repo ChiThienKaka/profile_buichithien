@@ -3,19 +3,23 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { COLORS } from "@/constants";
 import { Menu, FolderCode, Folder } from "lucide-react";
 import { IMAGE_CONSTANTS } from "@/constants/image";
+import { SwitchDarkMode } from "@/components/components-ui";
 export default function MobileHeader(){
     return (
         <Sheet>
             {/* Nút trigger mở menu - hiện ở mobile */}
-            <SheetTrigger className="block md:hidden p-2">
-                <div className="flex items-center space-x-2">
-                    <Avatar className="w-8 h-8">
-                        <AvatarImage src={IMAGE_CONSTANTS.img_admin} />
-                        <AvatarFallback>BC</AvatarFallback>
-                    </Avatar>
-                    <div style={{backgroundColor:COLORS.bgColor}} className="rounded-full p-1"><Menu className="w-4 h-4 text-white" /></div>
-                </div>
-            </SheetTrigger>
+            <div className="flex justify-end items-center p-2 md:hidden">
+                <SwitchDarkMode />
+                <SheetTrigger className="block md:hidden p-2">
+                    <div className="flex items-center space-x-2">
+                        <Avatar className="w-8 h-8">
+                            <AvatarImage src={IMAGE_CONSTANTS.img_admin} />
+                            <AvatarFallback>BC</AvatarFallback>
+                        </Avatar>
+                        <div style={{backgroundColor:COLORS.bgColor}} className="rounded-full p-1"><Menu className="w-4 h-4 text-white" /></div>
+                    </div>
+                </SheetTrigger>
+            </div>
 
             {/* Nội dung menu */}
             <SheetContent side="right" className="bg-white w-3/4">

@@ -4,8 +4,10 @@ import { Button } from "../ui/button";
 import { IMAGE_CONSTANTS } from "@/constants/image";
 export default function CardProfile() {
     return (
+        //darkmode
         <div className="flex flex-col w-full h-full gap-y-5 p-4 shadow-lg
-            rounded-lg bg-white 
+            rounded-lg bg-white
+            dark:bg-black dark:border-2 dark:border-white
             border-1 border-gray-300
             absolute md:bottom-20
             text-xs sm:text-sm md:text-base">

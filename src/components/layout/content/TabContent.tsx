@@ -16,7 +16,7 @@ export default function TabContent() {
                  data-[state=active]:after:bg-[#00BCD4]
     `
     return(
-        <Tabs defaultValue="overview" className="w-full">
+        <Tabs defaultValue="overview" className="w-full dark:bg-black">
             <TabsList className="lg:space-x-10">
                 <TabsTrigger className={tabTriggers} value="overview">Tổng quan</TabsTrigger>
                 <TabsTrigger className={tabTriggers} value="education">Học vấn</TabsTrigger>
