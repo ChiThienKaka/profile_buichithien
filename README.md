@@ -67,3 +67,12 @@ export default tseslint.config([
   },
 ])
 ```
+
+## UI UX
+//component product 
+https://miro.medium.com/v2/resize:fit:1400/1*eDC7IKeq7h2J7-a7iUa6pg.png
+//component info card
+https://i.sstatic.net/J0qds.png
+
+//component list
+https://assets.justinmind.com/wp-content/uploads/2019/10/ui-design-new-document-task-manager.png

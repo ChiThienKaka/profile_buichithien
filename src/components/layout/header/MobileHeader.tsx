@@ -22,7 +22,7 @@ export default function MobileHeader(){
             </div>
 
             {/* Nội dung menu */}
-            <SheetContent side="right" className="bg-white w-3/4">
+            <SheetContent side="right" className="bg-white w-3/4 dark:bg-black dark:text-white">
                 <SheetHeader>
                     <SheetTitle>
                         <div className="flex items-center space-x-2 text-sm">

@@ -5,4 +5,9 @@ export const IMAGE_CONSTANTS = {
     zalo: "./logos/zalo.jpg",
     tiktok: "./logos/tiktok.jpg",
     linkedin: "./logos/linkedIn.png",
+    pg: "/framework/postgresql.jpg",
+    postman:"./framework/postman.png",
+    swagger: "./framework/swagger.png",
+    ts: "./framework/ts.png",
+    dotnet:"./framework/dotnet.png",
 }

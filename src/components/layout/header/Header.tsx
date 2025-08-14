@@ -2,10 +2,9 @@ import MobileHeader from "./MobileHeader"
 import UserAction from "./UserAction"
 import { COLORS } from "@/constants"
 import { SwitchDarkMode } from "@/components/components-ui"
-
 export default function Header () {
      return (
-        <header  className="flex items-center justify-between p-2 bg-[#e6f1f2] dark:bg-black">
+        <header  className="flex items-center justify-between p-2">
             <h1 className="text-sm md:text-base lg:text-lg font-semibold">
                 <span style={{color:COLORS.bgColor}}>buichi</span>
                 <span className="text-red-500">thien</span>
