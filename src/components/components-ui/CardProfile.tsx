@@ -30,8 +30,8 @@ export default function CardProfile() {
                         <UserRoundPlus className="text-white" />
                     </Button>
                     <Button className="bg-[#28a0a0] sm:w-auto sm:h-6 md:w-auto md:h-8 text-white rounded-4xl
-                    cursor-pointer hover:bg-[#4d8c8c]" variant="secondary" size="sm">
-                        <MessageCircle /> <span className="sm:text-xs md:test-sm lg:text-base">Nhắn tin</span>
+                    cursor-pointer hover:bg-[#4d8c8c]" variant="secondary">
+                        <MessageCircle /> <span className="text-xs md:test-sm lg:text-base">Nhắn tin</span>
                     </Button>
             </div>
         </div>

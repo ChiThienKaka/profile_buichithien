@@ -10,4 +10,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  //fix react-emoj used var environment for error => var golobal
+  define: {
+    global: 'window'
+  }
 })

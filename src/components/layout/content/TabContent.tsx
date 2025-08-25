@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Overview from "./Overview";
 import Education from "./Education";
 import { Experience } from "@/components/components-ui";
+import Review from "./Review";
 export default function TabContent() {
     const tabTriggers = `
         relative px-1 py-2 text-sm font-normal text-gray-600 
@@ -29,7 +30,7 @@ export default function TabContent() {
             <TabsContent value="overview"><Overview /></TabsContent>
             <TabsContent value="education"><Education /></TabsContent>
             <TabsContent value="experiences"><Experience /></TabsContent>
-            <TabsContent value="reviews"><Overview /></TabsContent>
+            <TabsContent value="reviews"><Review /></TabsContent>
         </Tabs>
     )
 }

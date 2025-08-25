@@ -10,4 +10,5 @@ export const IMAGE_CONSTANTS = {
     swagger: "./framework/swagger.png",
     ts: "./framework/ts.png",
     dotnet:"./framework/dotnet.png",
+    fb_haha: "./logos/facebook-reaction-haha.svg"
 }
